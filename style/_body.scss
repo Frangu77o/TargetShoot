@@ -1,0 +1,30 @@
+body{
+    background-color: $secondary-color;
+}
+#campoGioco{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+#playBTN {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    filter: grayscale(100%);
+}
+.end{
+    font-family: $font2;
+    color: black;
+    display: none;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 40%;
+}
+#logo{
+    font-family: $font2;
+    color: $main-color;
+    position: absolute;
+    top: 35%;
+}
